@@ -10,17 +10,17 @@ A simple Node.js application with Kubernetes deployment manifests for learning a
 
 ## Usage
 
-1. Build Docker image:
+1. Build Docker image :
    ```sh
    docker build -t k8s-demo:latest .
    ```
-2. Run locally:
+2. Run locally :
    ```sh
    cd app && npm install && npm start
    ```
-3. Deploy to Kubernetes:
+3. Deploy to Kubernetes :
    ```sh
    kubectl apply -f k8s/
    ```
 
-Replace secrets and config values as needed for your environment.
+Replace secrets and config values as needed for your environment, Enjoy!
